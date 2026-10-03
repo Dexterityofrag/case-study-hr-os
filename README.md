@@ -12,9 +12,13 @@ HR tracked who came in, who was late and who took leave, and then turned all of 
 
 I have no measured figure for how long it took, so there is not one in this case study. What I can say is that it was manual from end to end, and that the mistakes it could produce were the kind that end in a conversation about somebody’s pay.
 
-![The HR OS dashboard: a greeting, the month’s payroll card, hours logged over the last weeks, and the company attendance report drawn as a grid of days](https://anurag.studio/projects/hr-os/01-dashboard.02f7a544.webp)
+![The HR OS dashboard: a greeting, the month’s payroll card, hours logged over the last weeks, and the company attendance report drawn as a grid of days](images/01-dashboard.webp)
 
-![The month at a glance: one row per person and one glyph per day, with days worked, clean days, time deducted and days ended with no credit summarised above it](https://anurag.studio/projects/hr-os/02-register.02f7a544.webp)
+The HR OS dashboard: a greeting, the month’s payroll card, hours logged over the last weeks, and the company attendance report drawn as a grid of days
+
+![The month at a glance: one row per person and one glyph per day, with days worked, clean days, time deducted and days ended with no credit summarised above it](images/02-register.webp)
+
+The month at a glance: one row per person and one glyph per day, with days worked, clean days, time deducted and days ended with no credit summarised above it
 
 ## The Reason We Did Not Just Buy One
 
@@ -30,9 +34,13 @@ The face terminal assigns its own user numbers and they are not employee codes. 
 
 Matching people is the one operation here I did not let run unattended. An enrolment decides whose attendance a punch becomes, and therefore whose pay it affects. So the matcher reports by default and writes only when it is given an apply flag, and anything ambiguous is left on the enrolment screen for a person to resolve. It is slower every time somebody joins, and that is the trade I wanted.
 
-![Device setup, linking a face the terminal recognises to a person on the roster, with the people already linked listed underneath](https://anurag.studio/projects/hr-os/03-enrolment.02f7a544.webp)
+![Device setup, linking a face the terminal recognises to a person on the roster, with the people already linked listed underneath](images/03-enrolment.webp)
 
-![The roster as one table: department, designation, monthly gross and attendance against each person](https://anurag.studio/projects/hr-os/04-employees.02f7a544.webp)
+Device setup, linking a face the terminal recognises to a person on the roster, with the people already linked listed underneath
+
+![The roster as one table: department, designation, monthly gross and attendance against each person](images/04-employees.webp)
+
+The roster as one table: department, designation, monthly gross and attendance against each person
 
 ## Built for a Device That Does Not Cooperate
 
@@ -56,9 +64,13 @@ An earlier machine translation rendered “Apply for leave” into Kannada using
 
 The whole system runs on one machine inside the office, so the bot uses long polling rather than webhooks. There is no public URL to point a webhook at.
 
-![A draft payroll run for August 2026 showing gross earnings, total deductions and net payable, with a payslip line for every person before the run is locked](https://anurag.studio/projects/hr-os/05-payroll-run.02f7a544.webp)
+![A draft payroll run for August 2026 showing gross earnings, total deductions and net payable, with a payslip line for every person before the run is locked](images/05-payroll-run.webp)
 
-![One employee: an attendance score, days present, leave taken and monthly gross, above their profile and documents](https://anurag.studio/projects/hr-os/06-employee-detail.02f7a544.webp)
+A draft payroll run for August 2026 showing gross earnings, total deductions and net payable, with a payslip line for every person before the run is locked
+
+![One employee: an attendance score, days present, leave taken and monthly gross, above their profile and documents](images/06-employee-detail.webp)
+
+One employee: an attendance score, days present, leave taken and monthly gross, above their profile and documents
 
 ## It Used to Be Dark, and That Was Wrong
 
@@ -76,7 +88,9 @@ The screenshots here come from the demo database rather than the live one, which
 
 What is still rough is the language work. Hindi, Nepali and Kannada remain unverified, so English is what almost everyone still sees.
 
-![An employee’s own page on a phone, showing leave available, days present this month, latest net pay and the requests they can make](https://anurag.studio/projects/hr-os/07-mobile-me.02f7a544.webp)
+![An employee’s own page on a phone, showing leave available, days present this month, latest net pay and the requests they can make](images/phones-1.jpg)
+
+An employee’s own page on a phone, showing leave available, days present this month, latest net pay and the requests they can make
 
 *An employee’s own page on a phone, showing leave available, days present this month, latest net pay and the requests they can make*
 
